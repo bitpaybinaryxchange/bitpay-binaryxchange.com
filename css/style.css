@@ -1,0 +1,250 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.1;
+    font-size: 11pt;
+}
+
+body {
+    background-color: #1f232e;
+    color: white;
+}
+
+.div_menu,
+.div_field_ {
+    width: 20%;
+    display: block;
+    height: 100vh;
+    float: left;
+    background: #2a3040;
+    display: inline-block;
+}
+
+.div_field_ {
+    width: 80%;
+    background: #1f232e;
+    display: inline-block;
+}
+
+.main_header__ {
+    position: relative;
+    width: 100%;
+    /*background: red;*/
+}
+
+._seg____header__ {
+    width: 100%;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+._in_content_ {
+    width: 80%;
+    display: block;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.foot_side___ {
+    overflow: hidden;
+    width: calc(100%/4);
+    float: left;
+    padding: 20px;
+}
+
+._im_py {
+    height: 70px;
+    padding: 10px;
+    display: inline-block;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+._seg____ {
+    width: calc(100%/2);
+    padding: 30px;
+    /*background: #8c92a0;*/
+    float: left;
+    display: inline-block;
+    border: 1px solid rgba(105, 224, 138, 0.22);
+    /*border-radius: 5px;*/
+}
+
+.a_seg____ {
+    width: calc(98%/3);
+}
+
+._seg___img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+._simg_ {
+    height: 70px;
+}
+
+.a_simg_ {
+    height: 130px;
+    float: left;
+}
+
+._side___ {
+    width: calc(100% - 90px);
+    display: inline-block;
+    float: right;
+}
+
+._b_side___ {
+    width: 100%;
+    margin: 0px;
+    float: unset;
+}
+
+.b_none_ {
+    border: none;
+}
+
+.value {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+._seg____htxt_ {
+    color: #8c92a0;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+._txt___ {
+    text-align: left;
+}
+
+._fLink {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 10px 0px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFF;
+    border-left: 2px solid grey;
+}
+
+._cLink {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+._l_div_m {
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+
+.l_text {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: right;
+    font-size: 60px;
+}
+
+.cnt_icon_num {
+    width: calc(94%/3);
+    padding: 10px 0px;
+    float: left;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #69e08a;
+    margin: 1%;
+}
+
+.r_img {
+    width: 55%;
+    display: inline-block;
+    float: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .l_text,
+    .r_img,
+    ._l_div_m,
+    ._seg____ {
+        width: 100%;
+        display: block;
+        margin: 0px;
+        float: unset;
+        overflow: hidden;
+        text-align: center;
+    }
+    ._in_content_,
+    .foot_side___ {
+        width: 98%;
+        overflow: hidden;
+    }
+    ._seg____,
+    .a_seg____ {
+        background: #232733;
+        border: 1px solid #2e3344;
+        border-radius: 10px;
+        width: 100%;
+        float: unset;
+        margin: 0px auto;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    .a_seg____ {
+        background: rgba(168, 171, 173, 0.11);
+        border: 1px solid rgba(168, 171, 173, 0.11);
+    }
+    .___flow___ {
+        margin: 0px auto !important;
+    }
+    ._seg____header__ {
+        font-size: 17px;
+        margin: 0px !important;
+        padding: 10px;
+    }
+    .l_text {
+        float: left;
+        font-size: 48px;
+        margin-top: 10px;
+    }
+    .r_img {
+        width: 85%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+}
+
+.tradingview-widget-copyright,
+.button-1dpg_T2E-,
+.button--right-2CEhpGhn- {
+    display: none;
+    height: 0px;
+}
